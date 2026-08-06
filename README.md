@@ -36,3 +36,11 @@ The repository contains the custom C++ firmware for the ESP32 microcontroller.
    ```cpp
    const char* ssid = "WIFI_SSID";
    const char* password = "WIFI_PASSWORD";
+4. Flash the code using an FTDI / TTL programmer.
+5. Open the Serial Monitor (115200 baud) to find the local IP address.
+6. Navigate to http://<YOUR_ESP32_IP> in any web browser to view the live feed.
+
+## Documentation
+
+For a deep dive into the engineering process, including 3D model blueprints, electrical schematics, component justification, and Home Assistant setup, please refer to the explanatory note (in Russian):
+PocketSmartHome_Engineering_Notes_RU.pdf
