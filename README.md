@@ -52,4 +52,5 @@ Pocket Smart Home can be fully integrated into the Home Assistant ecosystem and 
 
 For a deep dive into the engineering process, including 3D model blueprints, electrical schematics, component justification, and Home Assistant setup, please refer to the explanatory note (in Russian):
 PocketSmartHome_Engineering_Notes_RU.pdf
+
 A presentation of the work's defense at the final stage of the Olympiad is also available. [Presentation](https://docs.google.com/presentation/d/1gnX3RPoxm2LvydJuK4Y2AMV-k92565f06SBdwamBD_s/edit?usp=sharing)
