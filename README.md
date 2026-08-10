@@ -9,13 +9,13 @@ Pocket Smart Home is a compact, battery-powered, and fully portable IoT solution
 </div>
 <table>
   <tr>
-    <td><img src="images/20210416_214306.jpg" width="300"></td>
-    <td><img src="images/20210416_214328.jpg" width="300"></td>
-    <td><img src="images/PocketSmartHome.png" width="300"></td>
-    <td><img src="images/pockethomecap.png" width="300"></td>
-    <td><img src="images/pockethomecap2.png" width="300"></td>
-    <td><img src="images/openPSH.png" width="300"></td>
-    <td><img src="images/pocketsmarthome2.0ALL.gif" width="300"></td>
+    <td><img src="images/20210416_214306.jpg" width="200"></td>
+    <td><img src="images/20210416_214328.jpg" width="200"></td>
+    <td><img src="images/PocketSmartHome.png" width="200"></td>
+    <td><img src="images/pockethomecap.png" width="200"></td>
+    <td><img src="images/pockethomecap2.png" width="200"></td>
+    <td><img src="images/openPSH.png" width="200"></td>
+    <td><img src="images/pocketsmarthome2.0ALL.gif" width="200"></td>
   </tr>
 </table>
 
