@@ -4,7 +4,8 @@ Pocket Smart Home is a compact, battery-powered, and fully portable IoT solution
 🏆 **This project won the regional stage of the All-Russian Olympiad for Schoolchildren (Moscow Region).**
 
 <div style="overflow-x: auto; padding: 10px 0;">
-  <img src="images/20210417_115007.jpg" width="600" style="margin-right: 10px;" />
+  <img src="images/20210417_115007.jpg" width="400" style="margin-right: 10px;" />
+  <img src="images/pocketsmarthome2.0.gif" width="400" style="margin-right: 10px;" />
 </div>
 <table>
   <tr>
@@ -13,6 +14,8 @@ Pocket Smart Home is a compact, battery-powered, and fully portable IoT solution
     <td><img src="images/PocketSmartHome.png" width="300"></td>
     <td><img src="images/pockethomecap.png" width="300"></td>
     <td><img src="images/pockethomecap2.png" width="300"></td>
+    <td><img src="images/openPSH.png" width="300"></td>
+    <td><img src="images/pocketsmarthome2.0ALL.gif" width="300"></td>
   </tr>
 </table>
 
