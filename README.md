@@ -1,7 +1,7 @@
 # PocketSmartHome (Portable IoT Surveillance & Climate Monitor)
 Pocket Smart Home is a compact, battery-powered, and fully portable IoT solution designed for people who frequently move or travel. It provides an all-in-one, budget-friendly smart home experience without the need for complex installations.
 
-🏆 *This project won the regional stage of the All-Russian Olympiad for Schoolchildren (Moscow Region).*
+🏆 **This project won the regional stage of the All-Russian Olympiad for Schoolchildren (Moscow Region).**
 
 ## Key Features
 
@@ -24,9 +24,9 @@ The device was engineered to be highly cost-effective (total component cost ~$15
 ## Software Stack & Code Structure
 
 The repository contains the custom C++ firmware for the ESP32 microcontroller. 
-*   `esp32_cam_stream.ino`: Handles the camera initialization, Wi-Fi connection, and runs an asynchronous HTTP server on port 80 to broadcast multipart JPEG frames.
-*   *Memory Management:* Automatically detects available PSRAM to allocate frame buffers (UXGA for PSRAM, SVGA without it) to prevent heap exhaustion.
-*   *Stability:* Includes hardware-level configurations to disable brownout detectors during power spikes.
+*   **esp32_cam_stream.ino**: Handles the camera initialization, Wi-Fi connection, and runs an asynchronous HTTP server on port 80 to broadcast multipart JPEG frames.
+*   **Memory Management:** Automatically detects available PSRAM to allocate frame buffers (UXGA for PSRAM, SVGA without it) to prevent heap exhaustion.
+*   **Stability:** Includes hardware-level configurations to disable brownout detectors during power spikes.
 
 ## How to Run
 
