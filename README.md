@@ -24,7 +24,7 @@ The device was engineered to be highly cost-effective (total component cost ~$15
 ## Software Stack & Code Structure
 
 The repository contains the custom C++ firmware for the ESP32 microcontroller. 
-*   **esp32_cam_stream.ino**: Handles the camera initialization, Wi-Fi connection, and runs an asynchronous HTTP server on port 80 to broadcast multipart JPEG frames.
+*   **esp32_cam_stream.ino:** Handles the camera initialization, Wi-Fi connection, and runs an asynchronous HTTP server on port 80 to broadcast multipart JPEG frames.
 *   **Memory Management:** Automatically detects available PSRAM to allocate frame buffers (UXGA for PSRAM, SVGA without it) to prevent heap exhaustion.
 *   **Stability:** Includes hardware-level configurations to disable brownout detectors during power spikes.
 
@@ -39,6 +39,14 @@ The repository contains the custom C++ firmware for the ESP32 microcontroller.
 4. Flash the code using an FTDI / TTL programmer.
 5. Open the Serial Monitor (115200 baud) to find the local IP address.
 6. Navigate to http://<YOUR_ESP32_IP> in any web browser to view the live feed.
+
+## Home Assistant Integration
+
+Pocket Smart Home can be fully integrated into the Home Assistant ecosystem and managed via the official mobile app.
+
+* **Sensors & Firmware:** The DHT11 temperature/humidity sensor and PIR motion detector are configured using the ESPHome platform for seamless communication with the smart home server.
+* **Camera Feed:** The live HTTP video stream can be added to the Home Assistant dashboard by configuring a Generic Camera integration pointing to http://<YOUR_ESP32_IP>.
+* **Mobile Access:** Once deployed on a local server, all sensor data, motion alerts, and the live camera feed are accessible remotely through the Home Assistant mobile application.
 
 ## Documentation
 
