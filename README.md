@@ -3,6 +3,10 @@ Pocket Smart Home is a compact, battery-powered, and fully portable IoT solution
 
 🏆 **This project won the regional stage of the All-Russian Olympiad for Schoolchildren (Moscow Region).**
 
+![View1](images/20210416_214306.jpg)
+![View2](images/20210416_214328.jpg)
+![View3](images/20210417_115007.jpg)
+
 ## Key Features
 
 *   **Live Video Surveillance:** Real-time HTTP video streaming via ESP32-CAM.
